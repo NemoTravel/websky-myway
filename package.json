@@ -1,0 +1,27 @@
+{
+  "name": "oxy-customizer",
+  "version": "0.0.1",
+  "description": "Oxygen web custom theme",
+  "author": "agafonov@sirena2000.ru",
+  "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "browserify": "^16.2.3",
+    "del": "^2.2.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "1.5.1",
+    "strictify": "^0.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
+}
