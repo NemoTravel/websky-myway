@@ -1,4 +1,6 @@
-moment.locale('ka', {
-    weekdaysShort : 'ორშ._სამშ._ოთხ._ხუთ._პარ._შაბ._კვი.'.split('_'),
-    weekdaysMin : 'ორშ_სამშ_ოთხ_ხუთ_პარ_შაბ_კვი'.split('_'),
-});
+if(o2context.locale === 'ka'){
+    moment.locale('ka', {
+        weekdaysMin : 'კვი_ორშ_სამშ_ოთხ_ხუთ_პარ_შაბ'.split('_'),
+    });
+}
+
